@@ -1,0 +1,15 @@
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\tl1_tp9_2023-TomaSilva1.csproj.AssemblyReference.cache
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\tl1_tp9_2023-TomaSilva1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\tl1_tp9_2023-TomaSilva1.AssemblyInfoInputs.cache
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\tl1_tp9_2023-TomaSilva1.AssemblyInfo.cs
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\tl1_tp9_2023-TomaSilva1.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\bin\Debug\net7.0\tl1_tp9_2023-TomaSilva1.exe
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\bin\Debug\net7.0\tl1_tp9_2023-TomaSilva1.deps.json
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\bin\Debug\net7.0\tl1_tp9_2023-TomaSilva1.runtimeconfig.json
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\bin\Debug\net7.0\tl1_tp9_2023-TomaSilva1.dll
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\bin\Debug\net7.0\tl1_tp9_2023-TomaSilva1.pdb
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\tl1_tp9_2023-TomaSilva1.dll
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\refint\tl1_tp9_2023-TomaSilva1.dll
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\tl1_tp9_2023-TomaSilva1.pdb
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\tl1_tp9_2023-TomaSilva1.genruntimeconfig.cache
+C:\Users\Tomas\Desktop\TP9-TL1\tl1_tp9_2023-TomaSilva1\obj\Debug\net7.0\ref\tl1_tp9_2023-TomaSilva1.dll

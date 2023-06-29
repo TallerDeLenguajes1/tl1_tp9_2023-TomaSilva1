@@ -10,16 +10,68 @@
 //https://json2csharp.com/ → para convertir un archivo json a c#
 //http://jsonviewer.stack.hu/ → para visualizar el contenido de un archivo json
 
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Net;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using precios;
 
 namespace tp9
 {
     class Program
     {
-        static void main()
+        static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
 
+            Get();
+
+            //  List<EUR> monedas = new List<EUR>();
+            //  foreach (var item in monedas)
+            //  {
+            //      Console.WriteLine(item.description);
+            //  }
             
         }
+
+         private static void Get()
+         {
+             var url = $"https://api.coindesk.com/v1/bpi/currentprice.json";
+             var request = (HttpWebRequest)WebRequest.Create(url);
+             request.Method = "GET";
+             request.ContentType = "application/json";
+             request.Accept = "application/json";
+         
+         
+            try
+            {
+                using (WebResponse response = request.GetResponse())
+                {
+                    using (Stream strReader = response.GetResponseStream())
+                    {
+                        if (strReader == null) return;
+                        using (StreamReader objReader = new StreamReader(strReader))
+                        {
+                            string responseBody = objReader.ReadToEnd();
+
+                            preciosMonedas listMonedas = JsonSerializer.Deserialize<preciosMonedas>(responseBody);
+
+                            //Si es una lista utilizo foreach (Provincia prov in ProvinciasArg.Provincias)
+
+                        }
+                    }
+                } 
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+        }
+         
     }
 }
+
+
