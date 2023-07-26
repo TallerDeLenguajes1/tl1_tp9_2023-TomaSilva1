@@ -1,19 +1,18 @@
-using System;
+using System.Text.Json;
 using System.Text.Json.Serialization;
-// Root myDeserializedClass = JsonSerializer.Deserialize<Root>(myJsonResponse);
-namespace precios
+
+namespace monedas
 {
-      // Root myDeserializedClass = JsonSerializer.Deserialize<Root>(myJsonResponse);
-    public class Bpi
+     public class Bpi
     {
         [JsonPropertyName("USD")]
-        public USD Usd { get; set; }
+        public USD USD { get; set; }
 
         [JsonPropertyName("GBP")]
-        public GBP Gbp { get; set; }
+        public GBP GBP { get; set; }
 
         [JsonPropertyName("EUR")]
-        public EUR Eur { get; set; }
+        public EUR EUR { get; set; }
     }
 
     public class EUR
@@ -52,7 +51,7 @@ namespace precios
         public double rate_float { get; set; }
     }
 
-    public class preciosMonedas
+    public class mir
     {
         [JsonPropertyName("time")]
         public Time time { get; set; }
