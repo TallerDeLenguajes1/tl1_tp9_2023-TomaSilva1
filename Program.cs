@@ -29,7 +29,7 @@ switch (opc)
     Console.WriteLine("Simbolo: $");
     Console.WriteLine("Codigo: "+rs.bpi.USD.code);
     Console.WriteLine("rate: "+rs.bpi.USD.rate);
-    Console.WriteLine("rate_float"+rs.bpi.USD.rate_float);
+    Console.WriteLine("rate_float: "+rs.bpi.USD.rate_float);
     break;
     case 2:
     Console.WriteLine("-------EUR-------");
@@ -37,7 +37,7 @@ switch (opc)
     Console.WriteLine("Simbolo: €");
     Console.WriteLine("Codigo: "+rs.bpi.EUR.code);
     Console.WriteLine("rate: "+rs.bpi.EUR.rate);
-    Console.WriteLine("rate_float"+rs.bpi.EUR.rate_float);
+    Console.WriteLine("rate_float: "+rs.bpi.EUR.rate_float);
     break;
     case 3:
     Console.WriteLine("-------GBP-------");
